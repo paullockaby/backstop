@@ -1,2 +1,2 @@
 # backstop
-A web application that receives all requests and displays an error message.
+A system that will return the same document regardless of what page is requested.
