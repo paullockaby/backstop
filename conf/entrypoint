@@ -8,6 +8,7 @@ export APACHE_RUN_GROUP=www-data
 export APACHE_LOG_DIR=/var/log/apache2
 
 # these should be set by the caller but in case they are not
+export HTTPD_SERVER_ADMIN=${HTTPD_SERVER_ADMIN-root@localhost}
 export HTTPD_SERVER_NAME=${HTTPD_SERVER_NAME-localhost}
 export HTTPD_PROXY_PROTOCOL=${HTTPD_PROXY_PROTOCOL-Off}
 
