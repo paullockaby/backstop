@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim@sha256:7606bef5684b393434f06a50a3d1a09808fee5a0240d37da5d181b1b121e7637 AS base
+FROM debian:bullseye-slim@sha256:19f1d87b72e54f61bca5443048444360cde2f8ff8b90cb1230d5cb83d8ab4de7 AS base
 
 # github metadata
 LABEL org.opencontainers.image.source=https://github.com/paullockaby/backstop
